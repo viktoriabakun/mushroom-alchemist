@@ -1,26 +1,9 @@
-# Baby Boilerplate 🍼
-## ...for pet projects 🐾
+# Mushroom Alchemist 🍄
+#### *Dive deeper into the enchanted forest, but be cautious not to pick up any unfamiliar mushrooms...*
+![Banner here my friends](https://github.com/viktoriabakun/mushroom-alchemist/blob/media/readme-banner.png)
 
-![Banner here my friends](https://github.com/viktoriabakun/baby-boilerplate/blob/media/banner.png)
-
-## Overview
-
->**Baby Boilerplate** is a sassy 💁🏻‍♀️ and lightweight starter kit for your pet projects. Designed to be simple yet powerful, it gives you the perfect foundation to kickstart your creative coding journey. Whether you're a coding ninja or just starting, this boilerplate will cuddle you through the process.
-
-## Tech Stack
-
-- **pnpm:** Because we like our packages lightweight and fast.
-- **Vite:** The lightning-fast frontend build tool.
-- **ESLint:** Keeping your code stylish and error-free.
-- **React:** The superhero of UI libraries.
-- **TypeScript:** Adding that extra layer of swagger.
-- **SCSS Modules:** Styling with flair.
-
-## Customize it! ⚙️
-**Search for "BOILERPLATE"** strings in the project and replace it with your magic touch. Make it yours!
-
-## Features
-- **🍼 Lightweight:** Just like a baby, it's light on its feet.
-- **🚀 Fast Build:** Thanks to Vite, your project takes off in no time.
-- **🎨 Customizable:** Tailor it to your liking—no one-size-fits-all here.
-- **🧹 Clean Code:** ESLint ensures your code is as tidy as a nursery.
+## What Can I Do Here?
+- **🌲 Forest:** where you can [Take a Walk on the Wild Side](https://www.youtube.com/watch?v=oG6fayQBm9w) 
+- **📓 Glossary:** will show you all the main mushrooms and their properties.
+- **🧪 Alchemist table:** mix two - and know what will happen.
+- **❓ And more...:** because development is in progress.
