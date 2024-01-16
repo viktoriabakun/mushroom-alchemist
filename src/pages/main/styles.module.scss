@@ -1,0 +1,119 @@
+@import "/src/assets/styles/variables";
+
+header {
+  position: relative;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  height: calc($viewIndex * 5);
+  background-image: url("src/assets/img/ground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: calc($viewIndex * -2);
+}
+
+.layers {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  will-change: transform;
+}
+
+.mainText {
+  font-size: $mainTextFontSize;
+  letter-spacing: $mainTextLetterSpacing;
+}
+
+.title {
+  font-size: $titleFontSize;
+  letter-spacing: $titleLetterSpacing;
+}
+
+.layerBase {
+  background-image: url("../../assets/img/forest/base-layer.png");
+  transform: translate3d(0, calc($scrollY / 1.25), 0);
+  z-index: 0;
+}
+
+.layerMiddle {
+  background-image: url("../../assets/img/forest/middle-layer.png");
+  transform: translate3d(0, calc($scrollY / 2.5), 0);
+  z-index: 2;
+}
+
+.layerFront {
+  background-image: url("../../assets/img/forest/front-layer.png");
+  transform: translate3d(0, calc($scrollY / 7), 0);
+  z-index: 3;
+}
+
+.layersHeader {
+  will-change: transform;
+  text-transform: uppercase;
+  z-index: 1;
+  transform: translate3d(0, calc($scrollY / 1.5), 0);
+  text-shadow: 0 0 15px #baa918b8;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url("../../assets/img/cave-top-cut.png");
+  z-index: 4;
+  position: absolute;
+  width: 100%;
+  top: 95vh;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainContent {
+  padding: 10px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  text-align: center;
+  will-change: transform;
+  transform: translate3d(0, calc($scrollY / -2.5), 0);
+}
+
+.mainContentParagraph {
+  letter-spacing: calc($viewIndex / 10);
+  max-width: 400px;
+}
+
+footer {
+  position: absolute;
+  bottom: -105vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: $bgColor;
+  color: #464F5A;
+}

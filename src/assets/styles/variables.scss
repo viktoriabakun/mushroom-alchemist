@@ -1,0 +1,12 @@
+$viewIndex: calc(1vw + 1vh);
+$scrollY: var(--scroll-y);
+
+$bgColor: #010101;
+
+// text
+$textColor: #fdffe0;
+
+$titleFontSize: calc($viewIndex * 1.65);
+$titleLetterSpacing: calc($viewIndex / 3.5);
+$mainTextFontSize: calc($viewIndex / 1.5);
+$mainTextLetterSpacing: calc($viewIndex / 2.5);
