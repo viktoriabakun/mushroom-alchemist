@@ -103,7 +103,7 @@ header::after {
 
 .mainContentParagraph {
   letter-spacing: calc($viewIndex / 10);
-  max-width: 400px;
+  width: 100%;
 }
 
 footer {

@@ -3,13 +3,13 @@ import { useEffect } from 'react';
 import styles from './styles.module.scss';
 
 const MainPage = () => {
-    
+
   useEffect(() => {
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
       document.documentElement.style.setProperty('--scroll-y', `${this.scrollY}px`);
     });
   }, []);
-    
+
   return (
     <>
       <header>
@@ -25,14 +25,11 @@ const MainPage = () => {
         </div>
       </header>
 
-      <div className={styles.main}>
+      <main className={styles.main}>
         <div className={styles.mainContent}>
-          <h2 className={styles.title}>This is the place</h2>
-          <p className={`${styles.mainText} ${styles.mainContentParagraph}`}>where you can try your luck by
-            mixing various types of magic mushrooms. <br/>
-            Choose two — and you will see the future...</p>
+          <h2 className={styles.title}>This is the place where dreams intertwine with reality.</h2>
         </div>
-      </div>
+      </main>
 
       <footer className={styles.footer}>© viktoriabakun</footer>
     </>
